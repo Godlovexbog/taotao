@@ -2,7 +2,11 @@ package com.taotao.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+ * 实现序列化接口，需要网络传输
+ * @author xbog
+ *
+ */
 public class TbContent implements Serializable{
     private Long id;
 
