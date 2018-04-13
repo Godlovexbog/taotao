@@ -53,6 +53,7 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
 			<exclusions>
+			<!-- 排除版本号的混乱 -->
 				<exclusion>
 					<artifactId>spring</artifactId>
 					<groupId>org.springframework</groupId>
