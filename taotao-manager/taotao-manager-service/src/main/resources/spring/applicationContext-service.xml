@@ -35,6 +35,8 @@
 		<dubbo:service interface="com.itheima.core.service.TestTbService" ref="testTbService"/>
 		 -->
 		 <dubbo:service interface="com.taotao.service.ItemService" ref="itemServiceImpl" timeout="300000"/>
+		 
+		 <dubbo:service interface="com.taotao.service.ItemCatService" ref="itemCatServiceImpl" timeout="300000"/>
 	
 	
 
