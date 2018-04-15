@@ -53,12 +53,12 @@
 					<include>**/*.xml</include>
 				</includes>
 			</resource>
-			<!-- <resource> 解决xml文件不编译的问题 target文件夹不能编译xml
+			<resource>
 				<directory>src/main/resources</directory>
 				<includes>
 					<include>**/*.xml</include>
 				</includes>
-			</resource> -->
+			</resource>
 		</resources>
 	</build>
 	
