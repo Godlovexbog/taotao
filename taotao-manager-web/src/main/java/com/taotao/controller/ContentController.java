@@ -28,4 +28,6 @@ public class ContentController {
 		TaotaoResult result = contentService.addContent(content);
 		return result;
 	}
+	
+	
 }
