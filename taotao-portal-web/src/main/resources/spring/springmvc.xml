@@ -27,6 +27,5 @@
 	<dubbo:registry address="N/A"/>
 		<!-- dubbo   主机  端口 -->
 		<dubbo:protocol host="127.0.0.1" port="20880"/>
-	<!-- <dubbo:reference interface="com.taotao.service.ItemService"
-		id="itemService" url="127.0.0.1:20880" /> -->
+	<dubbo:reference interface="com.taotao.content.service.ContentService" id="contentService" url="127.0.0.1:20881"/>
 </beans>      
