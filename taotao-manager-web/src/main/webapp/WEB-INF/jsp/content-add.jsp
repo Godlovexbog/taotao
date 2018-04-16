@@ -23,7 +23,7 @@
 	            <td>URL:</td>
 	            <td><input class="easyui-textbox" type="text" name="url" style="width: 280px;"></input></td>
 	        </tr>
-	        <tr>
+	       <!--  <tr>
 	            <td>图片:</td>
 	            <td>
 	                <input type="hidden" name="pic" />
@@ -36,7 +36,7 @@
 	            	<input type="hidden" name="pic2" />
 	            	<a href="javascript:void(0)" class="easyui-linkbutton onePicUpload">图片上传</a>
 	            </td>
-	        </tr>
+	        </tr> -->
 	        <tr>
 	            <td>内容:</td>
 	            <td>
