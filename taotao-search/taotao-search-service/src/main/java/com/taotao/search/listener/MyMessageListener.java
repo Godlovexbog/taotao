@@ -20,7 +20,7 @@ public class MyMessageListener implements MessageListener {
 			//接收到消息
 			TextMessage textMessage = (TextMessage) message;
 			String text = textMessage.getText();
-			System.out.println(text);
+			System.out.println("接受到消息："+text);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

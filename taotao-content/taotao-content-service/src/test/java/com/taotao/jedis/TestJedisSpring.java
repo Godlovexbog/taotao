@@ -13,7 +13,7 @@ public class TestJedisSpring {
 		//从容器中获得JedisClient对象
 		JedisClient jedisClient = applicationContext.getBean(JedisClient.class);
 		//使用JedisClient对象操作redis
-		jedisClient.set("jedisclient", "mytest");
+		jedisClient.set("jedisclientdddd", "mytest");
 		String result = jedisClient.get("jedisclient");
 		System.out.println(result);
 	}

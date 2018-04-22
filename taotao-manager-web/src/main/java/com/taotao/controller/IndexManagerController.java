@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.taotao.common.pojo.SearchItem;
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.search.service.SearchItemService;
 
@@ -18,7 +19,7 @@ import com.taotao.search.service.SearchItemService;
 @Controller
 public class IndexManagerController {
 	
-	@Autowired
+	/*@Autowired
 	private SearchItemService searchItemService;
 
 	@RequestMapping("/index/import")
@@ -26,5 +27,5 @@ public class IndexManagerController {
 	public TaotaoResult importIndex() {
 		TaotaoResult taotaoResult = searchItemService.importItemsToIndex();
 		return taotaoResult;
-	}
+	}*/
 }
